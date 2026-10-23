@@ -1,0 +1,15 @@
+Experiment 8: Docker images and containers
+
+Basic commands to run:
+
+docker --version
+docker pull hello-world
+docker run hello-world
+docker images
+docker ps -a
+
+docker pull nginx
+docker run -d -p 8080:80 --name my-nginx nginx
+docker ps
+docker stop my-nginx
+docker rm my-nginx
